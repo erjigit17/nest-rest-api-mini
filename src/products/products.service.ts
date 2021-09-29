@@ -15,7 +15,7 @@ export class ProductsService {
   }
 
   create(productDto: CreateProductDto) {
-    return this.products.push({
+    this.products.push({
       ...productDto,
       id: Date.now().toString()
     })

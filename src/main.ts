@@ -7,4 +7,3 @@ async function bootstrap() {
 }
 bootstrap();
 
-//mongodb://localhost:27017/myapp
